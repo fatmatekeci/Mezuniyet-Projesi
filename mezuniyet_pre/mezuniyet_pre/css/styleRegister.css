@@ -1,0 +1,184 @@
+/************** common style****************************/
+
+
+
+/************** body****************************/
+
+body{
+
+	background: url("../images/train.jpg");
+	background-repeat:no-repeat;
+    background-size:cover;
+
+	font-size: 1em;
+	font-family: "life savers";
+}
+
+
+/************** wrapper****************************/
+
+
+.wrapper{
+	width: 100%;
+	height: 100%;
+}
+
+.wrapper .login{
+
+
+	width:100%;
+	height: 50px;
+	opacity: 1;
+	
+	display: block;
+}
+
+	.login ul{float: right;}   
+
+		.login li{
+			display: inline-block;
+			text-align: center;
+			width: 80px;
+
+			
+		}
+			.login li a{
+				text-decoration: none;
+				color:#fff;
+				line-height: 40px;
+
+
+					
+			}
+
+/************** container****************************/
+
+.container{
+	width: 40%;
+	height:75%;
+	background-color: #fff;
+	margin: 3% auto;
+	border: 1px solid #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #E6E6E6;
+	padding-top: 25px;
+	font-family: "life savers";
+	opacity: 0.8;
+}
+.container:hover{opacity:1;}
+
+.container .header{
+	margin-left: 35px;
+}
+.container  .header h1,p{
+
+	
+	color: #6b7b8a;
+}
+
+.container .header h1{
+	font-weight: bold;
+	font-size: 25px;
+}
+.container .header p{
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+
+.takeInput{
+
+	width: 85%;
+	height:auto;
+	
+	margin-left: 35px;
+	margin-top: 30px;
+}
+
+.takeInput label{
+
+	
+	color: #6b7b8a;
+	font-size: 16px;
+	font-weight: bold;
+
+
+}
+
+.takeInput .inputpart {
+	margin-top: 5px;
+}
+
+.inputpart input{
+
+	border: 1px solid #C6E2E6 ;
+	width:100%;
+	height: 40px;
+	border-radius: 5px;
+	text-indent: 10px;
+	font-family: "life savers";
+	font-size: 14px;
+
+}
+.inputpart input:hover{
+	background-color: #EDF8F7;
+}
+.inputpart input:focus{
+	background-color: #EDF8F7;
+	outline: 0;
+	content:" ";
+
+}
+
+.footer1{
+	display:block;
+	width: 85%;
+	
+	margin-left: 35px;
+	margin-top: 30px;
+	background-color: #fff;
+
+
+}
+
+.footer1 li{
+	display: inline-block;
+	float: left;
+	padding-top: 15px;
+}
+
+.footer1 .check {
+	float: left;
+
+}
+
+
+.footer1 .check  input{
+	background-color:#8DC6CD;
+	color:#E3E3E3; 
+	width: auto;
+	height: auto;
+	background-image: url(../images/checkback.png);
+
+}
+.footer1 p{
+	color:#6b7b8a; 
+	font-size: 12px;
+	line-height: 20px;
+}
+
+.footer1 input{
+	width: 100px;
+	height: 40px;
+	background-color: #ece401;
+	color: #6b7b8a;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 800;
+	float: right;
+	padding:0;
+	font-family: "life savers";
+}
+.footer1 input:hover{
+	opacity: 0.9;
+}

@@ -1,0 +1,165 @@
+/*         common elements           */
+
+/*              body                 */
+
+body{
+	background: green ;
+	font-size: 1em;
+	background-repeat:no-repeat;
+    background-size:cover;
+	font-family: "life savers";
+
+	
+}
+
+/**************** HEADER *****************/
+/*.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+ 
+.clearfix {
+	display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+	display: block;
+}
+ 
+* html .clearfix {
+	height: 1%;
+} 
+*/
+
+	
+
+
+
+/**************** container *****************/
+
+.container{
+
+
+	width:100%;
+	height: 100%;
+	
+}
+
+.container .login{
+
+
+	width:100%;
+	height: 50px;
+	opacity: 1;
+	
+	display: block;
+}
+
+	.login ul{float: right;}   
+
+		.login li{
+			display: inline-block;
+			text-align: center;
+			width: 80px;
+
+			
+		}
+			.login li a{
+				text-decoration: none;
+				color:#fff;
+				line-height: 40px;
+
+
+					
+			}
+
+.logo{
+	width: 128px;
+	height: 128px;
+	margin: 0 auto;
+	background: url("../images/travel.png") ;
+	background-repeat:no-repeat;
+    background-size:cover;
+    position:absolute;
+    top:0;
+    left:15%;
+
+}
+
+
+.siteName{
+
+	width: 300px;
+	height: 60px;
+	background: url("../images/siteLogo.png") no-repeat;
+	position: absolute;
+	top: 2%;
+	left:0;
+}
+
+
+
+ .searchButton{
+ 	width: 600px;
+ 	height: 60px;
+ 	background: #fff;
+ 	opacity: 0.9;
+ 	position: absolute;
+ 	top: 2%;
+ 	left: 28%;
+ 	border-radius: 5px;
+
+
+ }
+
+	.searchButton input{
+		width: 100%;
+		height: 100%;
+		border: none;
+		border-radius: 5px;
+		outline: 0;
+		font-size: 2em;
+		text-indent: 10px;
+		font-family: "life savers";
+		color:#2c3e50;
+		font-weight: bolder;
+		background-image: url("../images/searchButton.png");
+		background-repeat: no-repeat;
+		background-size: 40px;
+		background-position: 550px 10px ;
+	}
+
+ .searchButton .main{
+	margin: 0 auto;
+	
+	width: 580px;
+	height: 200px;
+	margin-top: 10px;
+	line-height: 1.5em;
+	margin-bottom: 30px;
+	overflow-y:scroll;
+	padding: 10px;
+	background: #fff;
+
+}
+
+
+.searchButton .main a{
+	color:#2c3e50;
+	
+	font-size: 1.2em;
+	text-decoration: none;
+}
+
+.mapContainer{
+	width: 1000px;
+	height: 600px;
+	background-image: url("../images/turkeyMap.gif") ;
+	margin: 5% auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
